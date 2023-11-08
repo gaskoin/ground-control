@@ -1,0 +1,8 @@
+## IDF Component Manager Manifest File
+dependencies:
+  idf:
+    version: ">=4.1.0"
+  espressif/ssd1306: "1.0.5"
+  xpowers:
+    git: https://github.com/lewisxhe/XPowersLib.git
+    version: "v0.2.0"

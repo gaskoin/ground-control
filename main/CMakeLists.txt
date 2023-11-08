@@ -1,0 +1,16 @@
+idf_component_register(
+    SRCS "Button.cpp"
+         "PowerButton.cpp"
+         "StatusScreen.cpp"
+         "LaunchpadConnection.cpp"
+         "InputMonitor.cpp"
+         "Display.cpp"
+         "GroundControl.cpp"
+         "Communication.cpp"
+         "EventDispatcher.cpp"
+         "Logger.cpp"
+         "Power.cpp"
+         "MenuScreen.cpp"
+         "main.cpp"
+    INCLUDE_DIRS "include"
+)

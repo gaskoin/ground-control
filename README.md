@@ -2,7 +2,13 @@
 
 This repository contains the device firmware for the Ground-Control project for rocket launching.
 
- [TTGO T-Beam V1.2](https://www.aliexpress.com/item/1005003088139358.html) with 868MHz radio is used as a hardware.
+[TTGO T-Beam V1.2](https://www.aliexpress.com/item/1005003088139358.html) with 868MHz radio is used as a hardware.
+
+In order to build the project it is required to install [esp-idf](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/) framework. After that you simply type below commands to download dependencies, build and flash the project:
+```
+idf.py update-dependencies
+idf.py build flash monitor
+```
 
 ### TODO
 - Rocket configuration and telemetry reading with [Lora](https://en.wikipedia.org/wiki/LoRa)
